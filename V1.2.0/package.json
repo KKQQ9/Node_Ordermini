@@ -1,0 +1,16 @@
+{
+  "name": "v1.0.0",
+  "version": "1.0.0",
+  "description": "启动服务",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "2.6.2",
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
+  }
+}

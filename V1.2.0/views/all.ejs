@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>所有订单</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/all.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>所有订单</h2>
+        <ul>
+            <% for(let i=0;i<phoneList.length;i++){ %>
+                <li>
+                    <span>手机号为：</span>
+                    <a href="/all/<%= phoneList[i] %>">
+                        <%= phoneList[i] %>
+                    </a>
+                    <span>的用户已订餐</span>
+                </li>
+                <% } %>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>

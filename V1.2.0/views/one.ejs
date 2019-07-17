@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <%= phone %>的订单</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>用户
+            <%= phone %>的订单</h2>
+        <% for(i= 0 ; i < food.length ; i++){ %>
+            <p>
+                <span>你点的菜是</span>
+                <%= food[i] %>
+                    <span>点餐时间为</span>
+                    <%= date[i] %>
+            </p>
+            <% }%>
+                <a href="/">点击返回首页</a>
+    </div>
+</body>
+
+</html>
